@@ -1,0 +1,33 @@
+{
+  "name": "pet-store-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "directories": {
+    "test": "steps"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "keywords": [],
+  "author": "Wioletta Mikłasewicz",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/register": "^7.15.3",
+    "babel-jest": "^26.6.3",
+    "jest": "^27.1.1",
+    "jest-cucumber": "^3.0.1",
+    "prettier": "2.4.0",
+    "supertest": "^6.1.6",
+    "faker": "^5.5.3"
+  },
+  "dependencies": {
+    "babel-jest": "^27.1.1",
+    "jest-allure": "^0.1.3",
+    "lodash": "^4.17.21"
+  }
+}
